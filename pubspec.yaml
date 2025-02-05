@@ -1,0 +1,35 @@
+name: madapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.3
+  cloud_firestore: ^5.6.2  # Updated to a compatible version
+  connectivity_plus: ^4.0.1
+  geolocator: ^9.0.0
+  battery_plus: ^3.0.0
+
+
+
+  # Firebase dependencies
+  firebase_core: ^3.10.1  # Keep the current version if compatible with cloud_firestore
+  firebase_auth: ^5.4.1  # Add this for Firebase Authentication
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/default_image.jpg

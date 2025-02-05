@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716655018735",
+    "project_id": "madapp-f7734",
+    "storage_bucket": "madapp-f7734.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716655018735:android:bb0bf3d3bb6d6e3752d11a",
+        "android_client_info": {
+          "package_name": "com.example.madapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeYz3jlThd0Oynn-ZxUHIyu-MrJV5noxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
